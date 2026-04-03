@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*Common 2026 Device Breakpoints:
+Mobile (XS): 320px - 360px (portrait mode, small devices).
+Mobile (S): 375px - 425px (modern smartphones).
+Mobile Landscape/Small Tablet: 480px - 576px.
+Tablet (Portrait): 768px - 834px (common tablet sizes).
+Tablet (Landscape)/Small Laptop: 992px - 1024px.
+Laptop/Desktop: 1200px - 1440px.
+Large Desktops: 1600px and above.
+*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    body{
+        background-image: linear-gradient(to top, #80548C, #F28444);
+    }
+    #login{
+        width: 80vw;
+    }
+    #login > #img{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #login > #form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+     body{
+        background-image: linear-gradient(to top, #80548C, #F28444);
+    }
+    #login{
+        width: 1200px;
+    }
+
+    #login > #img{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+        #login > #form{
+        float: right;
+        width: 50%;
+    }
+}
