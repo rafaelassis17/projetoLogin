@@ -15,6 +15,7 @@ Large Desktops: 1600px and above.
     }
     #login{
         width: 80vw;
+        height: 350px;
     }
     #login > #img{
         float: left;
@@ -36,6 +37,7 @@ Large Desktops: 1600px and above.
     }
     #login{
         width: 1200px;
+        height: 400px;
     }
     #form > h1 {
         font-size:3rem;
@@ -62,4 +64,5 @@ Large Desktops: 1600px and above.
 
 #form > p{
  font-size: 1em;
+ margin: 15px 0px;
 }
